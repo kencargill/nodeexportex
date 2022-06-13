@@ -1,3 +1,13 @@
+// function calcSum(numbers) {
+//     let sum = 0;
+//     numbers.forEach(number => (sum += numbers));
+//     return sum;
+// }
+
+// //default export
+// module.exports = calcSum;
+
+//above is jalens
 
 module.exports = function numSum (numbers) {
     // console.log(numbers);
@@ -7,7 +17,3 @@ module.exports = function numSum (numbers) {
     };
     return total
 };
-
-// module.exports =  numSum;
-
-// console.log(numSum([ 1, 1, 2, 3, 5, 8 ]));
