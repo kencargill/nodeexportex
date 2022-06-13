@@ -1,22 +1,22 @@
-const data = require('./data.js').data;
+const data = require("./data"); // (1)
+const sum = require("./sum"); // (2)
+const cowsay = require('cowsay'); //(3)
+const lodash = require('lodash'); //(4)
+
+
+// (1)*************************************
 
 console.log(data.numbers);
 console.log(`${data.name} is from ${data.hometown}`);
 
-// *************************************
+// (2) *************************************
 
-const sum = require('./sum.js');
+console.log(sum(data.numbers));
 
-console.log(sum.sum(data.numbers));
+// (3) ****************************************
 
-// ****************************************
+console.log(cowsay.say({text : "hello"}));
 
-const cowsay = require('cowsay');
+// (4) ****************************************
 
-console.log(greeting);
-
-// ****************************************
-
-const lodash = require('lodash');
-
-console.log(_.shuffle(numbers));
+console.log(lodash.shuffle(numbers));
