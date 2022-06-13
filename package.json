@@ -1,0 +1,18 @@
+{
+  "name": "nodeexportex",
+  "version": "1.0.0",
+  "description": "node and exports exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "data": "^0.6.1",
+    "lodash": "^4.17.21",
+    "sum": "^0.1.4"
+  }
+}
